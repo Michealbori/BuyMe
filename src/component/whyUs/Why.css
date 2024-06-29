@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Merienda";   
+    src: url(/public/font/Merienda.ttf);
+  }
+@font-face {
+    font-family: "Syamsiah";   
+    src: url(/public/font/Syamsiah.ttf);
+  }
+
+
+.why #choose
+{
+  display: flex;
+  justify-content: flex-end;
+  color: #dc092e;
+  font-family: "Merienda"; 
+  padding: 100px 300px 0 0 ;
+}
+
+.why h3
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 300px 0 0 ;
+}
+
+.why #quote
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 300px 0 0;
+  color: #ffce29;
+  font-size: 20px;
+  font-weight: 500;
+}
+ 
+
+/* #price
+{
+  font-family: "Abocat";  
+  color: #dc092e;
+  padding: 0 0 0 20px;
+} */
+.why #Journey
+{
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Syamsiah"; 
+  padding: 0 300px 300px 0;
+  text-decoration: none;
+  color: #dc092e;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.why 
+{
+   margin: 100px 0 0 0;
+    text-align: right;
+    background-image: url("/public/Hero2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.why a
+{
+   text-decoration: none;
+   background-color: #dc092e;
+   color: #fff;
+   font: 500;
+   width: 200px;
+}
+
+
+
+
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+
+    .why #choose
+    {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: "Merienda"; 
+      padding: 100px 0 0 0 ;
+    }
+    
+
+
+    .why h3
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 0 0 ;
+}
+
+.why #quote
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 0 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.why #Journey
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 300px 0;
+  text-decoration: none;
+  color: #dc092e;
+  font-weight: 500;
+  font-size: 25px;
+}
+}
