@@ -1,0 +1,72 @@
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: start;
+
+}
+
+footer ul
+{
+   list-style: none;
+}
+
+footer a
+{
+   text-decoration: none;
+   font-weight: 600;
+   color: #dc092e;
+}
+
+footer p 
+{
+    font-weight: 600;   
+}
+
+footer h3
+{
+    font-family: "Merienda";  
+}
+
+footer img
+{
+          padding-left: 140px;
+          width: 60%;
+}
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+    footer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 60px;
+    margin-top: 60px; */
+}
+
+footer h3 
+{
+    text-align: center;
+}
+
+footer ul
+{
+    text-align: center;
+}
+
+
+footer p 
+{
+    text-wrap: wrap;
+    text-align: center;
+}
+
+
+}

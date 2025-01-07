@@ -1,0 +1,44 @@
+@font-face {
+    font-family:"Syamsiah";
+    src: url(/public/font/Syamsiah.ttf);
+}
+
+
+.client
+{
+    background-image: url("/public/review bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.clientHeader
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family:"Syamsiah";
+    padding-top: 30px;
+}
+
+.clientContent
+{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+    .middle
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,150 @@
+
+
+  
+
+  @font-face {
+    font-family: "Abocat";   
+    src: url(/public/font/Abocat.ttf);
+  }
+
+
+
+
+
+
+.Allcar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 0 0 0;
+}
+
+b
+{
+    color: #dc092e;
+    font-family: "Abocat";   
+}
+
+h4{
+    padding: 20px 0 20px 0;
+}
+
+#Quote
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.gallary
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 220px 0 220px;
+}
+
+.section1 img
+{
+    width: 90%;
+}
+
+.section2 img
+{
+    width: 90%;
+
+}
+
+.section3 img
+{
+    width: 90%;
+}
+.section1 button
+{
+    border: none !important;
+    background: #dc092e;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0 0 0;
+}
+
+.section2 button
+{
+    border: none !important;
+    background: #dc092e;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0 0 0;
+}
+
+.section3 button
+{
+    border: none !important;
+    background: #dc092e;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0 0 0;
+}
+
+
+
+/* Media Query */
+@media (width <= 1250px)
+{
+    .gallary
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.section1 img
+{
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.section2 img
+{
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+.section3 img
+{
+    width: 100%;
+    padding: 20px 20px 0 20px;
+}
+
+
+#Quote
+{
+    text-align: center;
+    font-style: italic;
+    padding: 20px 20px 0 20px;
+}
+
+.section1 button
+{
+    margin: 10px 0 0 20px;
+}
+
+.section2 button
+{
+    margin: 10px 0 0 20px;
+}
+
+.section3 button
+{
+    margin: 10px 0 0 20px;
+}
+
+}
